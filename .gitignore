@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
+
+### macOS ###
 # General
 .DS_Store
 .AppleDouble
@@ -26,13 +30,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Shipped by Lens Studio
-Cache/**
-PluginsUserPreferences/**
-Support/**
-BackUp/**
-.vscode/**
-jsconfig.json
-tsconfig.json
-.DS_Store
-# Shipped by Lens Studio
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+# End of https://www.toptal.com/developers/gitignore/api/macos

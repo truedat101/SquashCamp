@@ -40,16 +40,22 @@
   Enabled: true
   ScriptAsset: !<reference> 612c1621-5271-4d6c-88ba-1e016a8b8e6a
   ScriptInputsDefault:
+    collider: true
+    moveObj: true
+    debug: true
+    hitSound: true
     failSound: true
+    racket: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      collider: !<reference.BodyComponent> 60645ceb-2f48-4067-9453-806aa0fb9be3
-      moveObj: !<reference.SceneObject> 9e29ff2d-5fcc-40e9-8a69-260b27438427
-      debug: !<reference.Text> 51a9ce00-d17d-4fe6-83d6-3aea235bae35
-      hitSound: !<reference.AudioComponent> 2a87c4b6-9438-47b2-af40-237e3a075213
+      collider: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      moveObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debug: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hitSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       failSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      racket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

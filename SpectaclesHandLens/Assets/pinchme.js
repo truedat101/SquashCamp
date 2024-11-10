@@ -2,10 +2,12 @@
 //@input SceneObject wall
 //@input SceneObject text
 //@input SceneObject floor
+//@input SceneObject bounding
 //@input SceneObject buttonParent
 
 script.ball.enabled = false;
 script.wall.enabled = false;
+script.bounding.enabled = false;
 script.floor.enabled = false;
 // Function to toggle visibility
 script.onPinch = function() {
@@ -13,6 +15,8 @@ script.onPinch = function() {
 
     script.ball.enabled = !script.ball.enabled;
     script.wall.enabled = !script.wall.enabled;
+     script.bounding.enabled = !script.bounding.enabled;
+    
     script.floor.enabled = !script.floor.enabled;
     // Hide text
     script.text.enabled = !script.text.enabled;

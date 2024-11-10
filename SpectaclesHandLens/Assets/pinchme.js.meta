@@ -25,6 +25,7 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     ball: false
+    bounding: false
     buttonParent: false
     floor: false
     text: false
@@ -39,6 +40,7 @@
       text: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       buttonParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       floor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bounding: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

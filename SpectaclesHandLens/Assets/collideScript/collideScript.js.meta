@@ -29,15 +29,23 @@
     failSound: false
     hitSound: false
     moveObj: false
+    racket: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      debug: !<reference.Text> 00000000-0000-0000-0000-000000000000
+    - physicsSettings: !<reference.WorldSettingsAsset> 00000000-0000-0000-0000-000000000000
+      hitText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      goodHitMessage: Good Hit! Ding
+      badHitMessage: Bad Hit! xxx
+      messageDuration: !<float> 2.000000
+      collider: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
       moveObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      physicsSettings: !<reference.WorldSettingsAsset> 00000000-0000-0000-0000-000000000000
+      debug: !<reference.Text> 00000000-0000-0000-0000-000000000000
       hitSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       failSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      startGameText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      startGameButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      racket: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
