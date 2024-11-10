@@ -1,0 +1,19 @@
+- !<AssetImportMetadata/dd2d1ffe-9eda-4cb5-9bbf-4fff61438163>
+  ImportedAssetIds:
+    Scripts/Modules/BehaviorSupport/BehaviorEventCallbacks: !<reference> ed45bc07-bc40-4728-a887-9afdd5e265ba
+    Scripts/Modules/Event/Event: !<reference> 2fbc87fb-c941-4beb-9fd0-92ec760fb1e7
+    Scripts/VisualDemonstration: !<reference> d24b822b-d701-412b-982e-67571255cde2
+    TypeScriptAsset: !<reference> db913900-1c78-47ea-b1c5-f1186dc79552
+    TypeScriptAsset1: !<reference> cc17fae9-12fb-4a5b-8e90-afa4581fa8ef
+    TypeScriptAsset2: !<reference> 944b69b4-fbfe-48d3-8372-7a295124fa5c
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> d24b822b-d701-412b-982e-67571255cde2
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/f80d5181-5d84-4180-952d-16d922c2e9ef>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

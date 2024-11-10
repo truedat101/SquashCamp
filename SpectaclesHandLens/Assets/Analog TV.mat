@@ -1,0 +1,170 @@
+- !<Material/7325feff-8a5c-4f58-8847-020290c14f28>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> d3569e2a-7774-4396-9c74-666e8c809cb7
+- !<PassInfo/d3569e2a-7774-4396-9c74-666e8c809cb7>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_NORMALMAP
+  BlendMode: Disabled
+  Properties:
+    Port_Input0_N002:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N006:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N008:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N007:
+      typeIdx: 1
+      value: 0.002500
+    Port_Input1_N009:
+      typeIdx: 1
+      value: 15.000000
+    Port_Input1_N010:
+      typeIdx: 1
+      value: 0.004000
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N051:
+      typeIdx: 1
+      value: 0.015000
+    Port_Input2_N021:
+      typeIdx: 1
+      value: 6.000000
+    Port_Multiplier_N025:
+      typeIdx: 1
+      value: 15.150000
+    Port_Multiplier_N027:
+      typeIdx: 1
+      value: 14.330000
+    Port_Multiplier_N031:
+      typeIdx: 1
+      value: 12.016000
+    Port_Multiplier_N032:
+      typeIdx: 1
+      value: 32.118000
+    Port_Value2_N020:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value4_N058:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    distortion:
+      typeIdx: 1
+      value: 0.100000
+    intensity:
+      typeIdx: 1
+      value: 2.000000
+    noiseColor:
+      typeIdx: 5
+      value: {x: 0.260000, y: 0.260000, z: 0.260000, w: 1.000000}
+    noiseIntensity:
+      typeIdx: 1
+      value: 0.360000
+    normalTex:
+      typeIdx: 9
+      value:
+        id: be1639ec-54cd-40ca-90ea-e8a191c9e2c0
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    normalTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    normalTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    normalTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    normalTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    scanlinesTex:
+      typeIdx: 9
+      value:
+        id: c1ee35fd-c534-442d-a6c3-a614fec8afd8
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    scanlinesTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    scanlinesTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    scanlinesTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    scanlinesTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTexture:
+      typeIdx: 9
+      value:
+        id: a22b3f2a-2ceb-477b-8483-efd8558929c4
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    screenTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTextureDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    screenTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    uvScale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 0.500000}
+  Pass: !<reference> a6343236-651d-48e7-9c15-cd1234b787ca

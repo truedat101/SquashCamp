@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/1335796d-aa99-46d3-a608-867baac78317>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 46e3a8d7-a34d-4643-9a86-e82c6c1fd29a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 46e3a8d7-a34d-4643-9a86-e82c6c1fd29a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> dfac4cda-8494-420e-a364-0a220314798f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c98752eb-c432-4f0f-ae25-29a22561c181>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4b210a41-d2fa-4363-aa10-1ed4535b0a02>
+  PrefabRemaps:
+    []
+  Name: collideScript
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da0e0c5a-b215-458a-885d-036b424df70f
+- !<ObjectPrefab/995e0997-605c-4433-8b13-8e359c620ce2>
+  PackagePath: ""
+  objects:
+    - !<own> 4b210a41-d2fa-4363-aa10-1ed4535b0a02
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/da0e0c5a-b215-458a-885d-036b424df70f>
+  PrefabRemaps:
+    []
+  Name: collideScript
+  Enabled: true
+  ScriptAsset: !<reference> 612c1621-5271-4d6c-88ba-1e016a8b8e6a
+  ScriptInputsDefault:
+    failSound: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      collider: !<reference.BodyComponent> 60645ceb-2f48-4067-9453-806aa0fb9be3
+      moveObj: !<reference.SceneObject> 9e29ff2d-5fcc-40e9-8a69-260b27438427
+      debug: !<reference.Text> 51a9ce00-d17d-4fe6-83d6-3aea235bae35
+      hitSound: !<reference.AudioComponent> 2a87c4b6-9438-47b2-af40-237e3a075213
+      failSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/dfac4cda-8494-420e-a364-0a220314798f>
+  SourceRemaps:
+    - 0fa5b5af-f0b4-4d35-a0a1-732d7d97667d: 4b210a41-d2fa-4363-aa10-1ed4535b0a02
+    - b209cff2-8edb-48c6-b677-62b98c00d43f: da0e0c5a-b215-458a-885d-036b424df70f
+  SourceState: !<own> 995e0997-605c-4433-8b13-8e359c620ce2

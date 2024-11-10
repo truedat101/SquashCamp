@@ -1,0 +1,282 @@
+- !<AssetImportMetadata/7a9f9eb6-4ebd-4f7c-a2c3-6855fb70efb6>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e39fffd9-dbd3-4f79-bc06-33403a5b3ceb
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e39fffd9-dbd3-4f79-bc06-33403a5b3ceb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 8828fca1-6a7c-4065-a8ab-5472e0b5e2c0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/ce53be82-44f5-489a-9a8a-eb93f9a3eb59>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0f926b6c-f675-49ef-aa0b-ca9dbe9fb5e5>
+  PrefabRemaps:
+    []
+  Name: agedWood
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -22.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2bae71b2-d8d9-4321-a675-720cfcc085f3
+- !<RenderMeshVisual/2bae71b2-d8d9-4321-a675-720cfcc085f3>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8f29ae16-0108-4eb3-b6ae-58e224f600c5
+  Mesh: !<reference> f21aed66-be86-4aef-98e7-7789256e71ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ObjectPrefab/2de363c5-b86a-4adf-98d7-b20f75718aeb>
+  PackagePath: ""
+  objects:
+    - !<own> 860db18a-8c38-4964-815f-07996ce8cbfc
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/400b42e0-b7dd-4567-9a04-65d60e5968eb>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e871fccb-9500-4d4f-9b8b-d394fd19d3f2
+  Mesh: !<reference> f21aed66-be86-4aef-98e7-7789256e71ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<RenderMeshVisual/6b2287ed-6683-4776-b991-61d240dafd32>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1b257548-743b-4db6-85b8-b698daa2a07d
+  Mesh: !<reference> f21aed66-be86-4aef-98e7-7789256e71ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<RenderMeshVisual/8586d68d-5268-4fa3-bef9-e4bcb2692439>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eb451301-b29a-4fc8-a260-63f5d3a849fc
+  Mesh: !<reference> f21aed66-be86-4aef-98e7-7789256e71ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/860db18a-8c38-4964-815f-07996ce8cbfc>
+  PrefabRemaps:
+    []
+  Name: Wood Materials
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0f926b6c-f675-49ef-aa0b-ca9dbe9fb5e5
+    - !<own> 98b21c33-8014-4576-8164-a573ffc8b15a
+    - !<own> 8a0c04cb-e5df-4f30-b8bc-8e14090aea22
+    - !<own> b4526c8f-4bec-4442-b992-175a3bbacbbf
+  Components:
+    []
+- !<ObjectPrefabAssetData/8828fca1-6a7c-4065-a8ab-5472e0b5e2c0>
+  SourceRemaps:
+    - 2ff2b107-9f86-4c3c-9ff2-154cee373b35: 2bae71b2-d8d9-4321-a675-720cfcc085f3
+    - 3b950835-b1bf-4465-bce5-700bbf8d1bc4: 400b42e0-b7dd-4567-9a04-65d60e5968eb
+    - 41864e22-ca6d-4a49-b21d-d1d597512a8c: 8586d68d-5268-4fa3-bef9-e4bcb2692439
+    - 53e38908-4391-44be-9997-655a323fcc73: 860db18a-8c38-4964-815f-07996ce8cbfc
+    - 676501d8-cea4-45a4-beea-4a57d180edf7: 6b2287ed-6683-4776-b991-61d240dafd32
+    - 86b901d5-770e-43f4-897c-56f8ab446f88: 98b21c33-8014-4576-8164-a573ffc8b15a
+    - 94f14976-dbeb-482e-b2a3-980e641ca2c5: 8a0c04cb-e5df-4f30-b8bc-8e14090aea22
+    - c11777e7-aa94-4fa3-95be-d2256f64f0cb: b4526c8f-4bec-4442-b992-175a3bbacbbf
+    - ca84786b-553f-4413-b5a4-ee469748e13e: 0f926b6c-f675-49ef-aa0b-ca9dbe9fb5e5
+  SourceState: !<own> 2de363c5-b86a-4adf-98d7-b20f75718aeb
+- !<SceneObject/8a0c04cb-e5df-4f30-b8bc-8e14090aea22>
+  PrefabRemaps:
+    []
+  Name: stripsWood
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -22.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 400b42e0-b7dd-4567-9a04-65d60e5968eb
+- !<SceneObject/98b21c33-8014-4576-8164-a573ffc8b15a>
+  PrefabRemaps:
+    []
+  Name: bambooWood
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 22.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6b2287ed-6683-4776-b991-61d240dafd32
+- !<SceneObject/b4526c8f-4bec-4442-b992-175a3bbacbbf>
+  PrefabRemaps:
+    []
+  Name: wangeWood
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 22.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8586d68d-5268-4fa3-bef9-e4bcb2692439

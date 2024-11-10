@@ -1,0 +1,65 @@
+- !<ObjectPrefab/9feac1fc-e880-4685-b4f4-18d3ddbe67ad>
+  PackagePath: ""
+  objects:
+    - !<own> 93c3aa9e-a87d-4a2c-ac4b-d5070ce782ec
+  LazyLoading: false
+  RetainAssets: true
+- !<BodyComponent/6dd3fb33-5e23-4312-ad2a-0a3242d8eff6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1198628.820000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/82d2f4d5-bf70-4a14-b10f-30c8a5f1aa3a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c96a27a9-9dba-4926-ad34-9ce06a51b124
+  Mesh: !<reference> 68c00852-dc1d-43df-a727-d9f2388e65d1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/93c3aa9e-a87d-4a2c-ac4b-d5070ce782ec>
+  PrefabRemaps:
+    []
+  Name: startBall
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -38.644737, y: -0.284710, z: -53.847382}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82d2f4d5-bf70-4a14-b10f-30c8a5f1aa3a
+    - !<own> 6dd3fb33-5e23-4312-ad2a-0a3242d8eff6

@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/cd4ff884-2116-488c-bbdd-c56b3cea6d71>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 17467684-640f-4e5c-b7cf-8d23a3a113a6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 17467684-640f-4e5c-b7cf-8d23a3a113a6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 345a4112-5848-432d-b852-9a4eb550c545
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/84bf0c3d-28a3-4fa5-9cc9-f3574dbd15c1>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/345a4112-5848-432d-b852-9a4eb550c545>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    maxLife: false
+    progressBar: false
+    progressionText: false
+    startFromMaxAmount: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - progressBar: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      maxLife: 100
+      progressionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      startFromMaxAmount: true
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/ddaf03c3-187d-4615-b9a3-2f21eb0e8992>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 612c1621-5271-4d6c-88ba-1e016a8b8e6a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 612c1621-5271-4d6c-88ba-1e016a8b8e6a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 00947db1-9b5c-4eef-a7ff-d787862f2255
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3ec14ee5-66f0-4728-93d9-e9c42bbe1a71>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/00947db1-9b5c-4eef-a7ff-d787862f2255>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    collider: false
+    debug: false
+    failSound: false
+    hitSound: false
+    moveObj: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      debug: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      moveObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      physicsSettings: !<reference.WorldSettingsAsset> 00000000-0000-0000-0000-000000000000
+      hitSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      failSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

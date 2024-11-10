@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/ab8e2474-9e98-46ca-8525-7509a9db7793>
+  ImportedAssetIds:
+    Texture: !<reference> 9180499b-3c9e-4db4-ae44-1c449eaefff7
+  ImporterName: ProxyTextureImporter
+  PrimaryAsset: !<reference> 9180499b-3c9e-4db4-ae44-1c449eaefff7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/4a0cd889-3680-4482-b32e-f9875e8cb1bb>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

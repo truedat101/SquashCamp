@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/b1896656-368f-40cc-b544-56bccf90340a>
+  ImportedAssetIds:
+    DestructionHelper: !<reference> 2df527d4-ec02-4125-a7c2-e77ae273b932
+    EventModule: !<reference> 6af0e2e8-8ede-4caf-9aa9-b5203bd24faf
+    Manipulate Screen Transform/Manipulate Screen Transform: !<reference> e2091a52-bce6-48c7-b3de-269cbf604680
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> e2091a52-bce6-48c7-b3de-269cbf604680
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/75af7a2f-71ce-4603-8f99-a329c98d3dc4>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
