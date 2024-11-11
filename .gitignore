@@ -1,7 +1,19 @@
+<<<<<<< HEAD:.gitignore
 # Created by https://www.toptal.com/developers/gitignore/api/macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
 ### macOS ###
+=======
+# Shipped by Lens Studio
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+.vscode/**
+jsconfig.json
+tsconfig.json
+.DS_Store
+
 # General
 .DS_Store
 .AppleDouble
@@ -33,5 +45,3 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
-
-# End of https://www.toptal.com/developers/gitignore/api/macos
