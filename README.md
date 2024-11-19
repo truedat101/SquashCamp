@@ -2,6 +2,7 @@
 
 This project is called SquashCamp.  The concept is created on behalf of the team for Immerse The Bay 2024 Hackathon.
 
+Devpost is here: https://devpost.com/software/squash-camp
 
 ## License
 
